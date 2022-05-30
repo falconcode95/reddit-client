@@ -1,0 +1,15 @@
+
+.loading {
+    display: block;
+    margin: 150px auto;
+    animation: rotation 5s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
