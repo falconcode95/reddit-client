@@ -423,7 +423,7 @@ a, p{
   cursor: pointer;
 }
 
-.search-parttwo {
+.search-parttwo { 
   display: none;
 }
 
@@ -484,6 +484,10 @@ a, p{
 
   .search-parttwo {
     display: block;
+  }
+
+  .dark-input {
+    padding-left: 5rem;
   }
 
 
